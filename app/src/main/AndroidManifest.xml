@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <application
+        android:name="com.chs.realmtest.RealmTestApp"
         android:allowBackup="false"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -13,7 +14,7 @@
         android:theme="@style/Theme.RelamTest"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name="com.chs.realmtest.MainActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.RelamTest">
